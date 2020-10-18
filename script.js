@@ -45,7 +45,7 @@ function rectangle(color, x, y, width, height) {
     ctx.fillRect(x, y, width, height);
 }
 
-// keyboard
+// keyboarf
 function keyPush(event) {
     switch(event.key) {
         case "ArrowUp": 
@@ -63,5 +63,3 @@ function keyPush(event) {
 
     }
 }
-
-
