@@ -9,7 +9,7 @@ const ctx = canvas.getContext("2d");
 const snakeSize = 50;
 let snakeSpeed = 5;
 let snakePosX = 0;
-let snakePosY = canvas.height/2 - snakeSize/2
+let snakePosY = canvas.height/2 - snakeSize/2;
 ctx.fillStyle = "white";
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 
